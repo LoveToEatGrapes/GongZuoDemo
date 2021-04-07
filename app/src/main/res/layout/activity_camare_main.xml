@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CamareMainActivity">
+
+
+    <com.example.myapplication.camare.CameraView
+        android:id="@+id/camera"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <com.example.myapplication.camare.FocusImageView
+        android:id="@+id/recorder_focus_iv"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:visibility="invisible"
+        app:focus_fail_id="@drawable/focus_focus_failed"
+        app:focus_focusing_id="@drawable/focus_focusing"
+        app:focus_success_id="@drawable/focus_focused" />
+
+</RelativeLayout>

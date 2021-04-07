@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CropActivity">
+
+    <com.edmodo.cropper.CropImageView
+        android:id="@+id/crop_image_view"
+        android:src="@mipmap/violetsky"
+        app:guidelines="on"
+        android:scaleType="centerInside"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_black_remake"
+            android:text="返回重拍"
+            android:gravity="center"
+            android:layout_width="112dp"
+            android:layout_height="32dp"/>
+
+        <TextView
+            android:id="@+id/tv_crop"
+            android:text="提取文字"
+            android:gravity="center"
+            android:layout_marginLeft="44dp"
+            android:layout_width="112dp"
+            android:layout_height="32dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

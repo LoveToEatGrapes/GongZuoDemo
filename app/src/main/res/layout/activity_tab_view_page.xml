@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tag_viewpage.TabViewPageActivity">
+
+
+    <com.example.myapplication.tag_viewpage.MarqueeTextView
+        android:id="@+id/mar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:fadingEdgeLength="0dp"
+        android:requiresFadingEdge="horizontal"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/horizontalScrollViewItemContainer"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"/>
+
+
+    </HorizontalScrollView>
+
+
+    <com.example.myapplication.tag_viewpage.PickerView
+        android:id="@+id/minute_pv"
+        android:layout_marginTop="20dp"
+        android:layout_width="80dp"
+        android:layout_height="160dp" />
+
+
+</LinearLayout>

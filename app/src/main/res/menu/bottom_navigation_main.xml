@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/action_lib"
+      android:enabled="true"
+      android:icon="@drawable/tabbar_ideascore_select"
+      android:title="主页"
+      app:showAsAction="ifRoom" />
+  <item
+      android:id="@+id/action_search"
+      android:enabled="true"
+      android:icon="@drawable/tabbar_patentsearch_select"
+      android:title="检索"
+      app:showAsAction="ifRoom" />
+  <item
+      android:id="@+id/action_news"
+      android:enabled="true"
+      android:icon="@drawable/tabbar_news_select"
+      android:title="资讯"
+      app:showAsAction="ifRoom" />
+
+  <item
+      android:id="@+id/action_news_two"
+      android:enabled="true"
+      android:icon="@drawable/tabbar_news_select"
+      android:title="资讯"
+      app:showAsAction="ifRoom" />
+  <item
+      android:id="@+id/action_mine"
+      android:enabled="true"
+      android:icon="@drawable/tabbar_personalcenter_select"
+      android:title="我的"
+      app:showAsAction="ifRoom" />
+</menu>

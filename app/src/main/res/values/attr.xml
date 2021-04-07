@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EHorizontalSelectedView">
+        <attr name="otherTextSize" format="dimension" />
+        <attr name="selectTextSize" format="dimension" />
+        <attr name="seeSize" format="integer" />
+        <attr name="selectColor" format="color" />
+        <attr name="otherColor" format="color" />
+    </declare-styleable>
+
+
+<!--    图片剪裁的属性-->
+    <declare-styleable name="CropImageView">
+
+        <attr name="guidelines">
+            <enum name="off" value="0"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="on" value="2"/>
+        </attr>
+
+        <attr name="fixAspectRatio" format="boolean"/>
+        <attr name="aspectRatioX" format="integer"/>
+        <attr name="aspectRatioY" format="integer"/>
+
+    </declare-styleable>
+
+
+<!--    三个点加载-->
+    <declare-styleable name="DilatingDotsProgressBar">
+        <attr name="android:radius" />
+        <attr name="android:color" />
+        <attr name="dd_numDots" format="integer" />
+        <attr name="dd_scaleMultiplier" format="float" />
+        <attr name="dd_animationDuration" format="integer" />
+        <attr name="dd_horizontalSpacing" format="dimension" />
+        <attr name="dd_endColor" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="NoiseboardView">
+        <attr name="radius" format="dimension"/>     <!--扇形半径-->
+        <attr name="bigSliceCount" format="integer"/> <!-- 长刻度条数-->
+        <attr name="sliceCountInOneBigSlice" format="integer"/> <!-- 每两条长刻度之间分条数-->
+        <attr name="scaleColor" format="color"/> <!--刻度颜色-->
+        <attr name="scaleTextSize" format="dimension"/> <!--刻度字体大小-->
+        <attr name="unitText" format="string"/> <!--单位-->
+        <attr name="unitTextSize" format="string"/> <!--单位字体大小-->
+        <attr name="minValue" format="integer"/> <!--最小值-->
+        <attr name="maxValue" format="integer"/> <!--最大值-->
+        <attr name="ribbonWidth" format="dimension"/> <!--色带宽度-->
+    </declare-styleable>
+
+
+
+    <declare-styleable name="CircleView">
+        <attr name="pointDisArc" format="dimension"></attr>
+        <attr name="textSize" format="dimension"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="DashboardView">
+        <attr name="radius1" format="dimension"/>     <!--扇形半径-->
+        <attr name="startAngle1" format="integer"/> <!-- 起始角度-->
+        <attr name="sweepAngle1" format="integer"/>  <!--绘制角度-->
+        <attr name="bigSliceCount1" format="integer"/> <!-- 长刻度条数-->
+        <attr name="sliceCountInOneBigSlice1" format="integer"/> <!-- 长刻度条数-->
+        <attr name="arcColor1" format="color"/> <!--弧度颜色-->
+        <attr name="measureTextSize1" format="dimension"/> <!--刻度字体大小-->
+        <attr name="textColor1" format="color"/> <!--字体颜色-->
+        <attr name="headerTitle1" format="string"/> <!--表头-->
+        <attr name="headerTextSize1" format="string"/> <!--表头字体大小-->
+        <attr name="headerRadius1" format="dimension"/> <!--表头半径-->
+        <attr name="pointerRadius1" format="dimension"/> <!--指针半径-->
+        <attr name="circleRadius1" format="dimension"/> <!--中心圆半径-->
+        <attr name="minValue1" format="integer"/> <!--最小值-->
+        <attr name="maxValue1" format="integer"/> <!--最大值-->
+        <attr name="realTimeValue1" format="float"/> <!--实时值-->
+        <attr name="stripeWidth1" format="dimension"/> <!--色带宽度-->
+        <attr name="stripeMode1" > <!--色条显示位置-->
+            <enum name="normal1" value="0"/>
+            <enum name="inner1" value="1"/>
+            <enum name="outer1" value="2"/>
+        </attr>
+        <attr name="bgColor1" format="color"/> <!--背景颜色-->
+    </declare-styleable>
+
+</resources>

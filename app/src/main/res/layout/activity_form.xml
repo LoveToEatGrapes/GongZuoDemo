@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.KeDuPanActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.myapplication.View.kedupan.NoiseboardView
+            android:id="@+id/noiseboardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bigSliceCount="10"
+            app:unitText="DB"
+            app:maxValue="150"
+            app:scaleTextSize="10sp"
+            app:radius="110dp"
+            app:ribbonWidth="40dp"/>
+
+        <Button
+            android:id="@+id/bt_anniu"
+            android:text="我是按钮"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+            <com.example.myapplication.View.kedupan.DashboardView1
+                android:id="@+id/dashboard_view_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.example.myapplication.View.kedupan.DashboardView2
+                android:id="@+id/dashboard_view_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.example.myapplication.View.kedupan.DashboardView3
+                android:id="@+id/dashboard_view_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"/>
+
+            <com.example.myapplication.View.kedupan.DashboardView4
+                android:id="@+id/dashboard_view_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="@dimen/activity_horizontal_margin"/>
+
+        <com.example.myapplication.View.kedupan.CircleView
+            android:layout_centerInParent="true"
+            android:id="@+id/cicleview"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:textSize="20sp"
+            app:pointDisArc="20dp"
+            android:background="@android:color/holo_blue_light"
+            />
+
+
+
+
+        <com.example.myapplication.View.kedupan.DashboardView
+            android:id="@+id/default_dashboard_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.example.myapplication.View.kedupan.DashboardView
+            android:id="@+id/dashboard_view_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bigSliceCount1="9"
+            app:headerRadius1="50dp"
+            app:headerTitle1="kW"
+            app:maxValue1="450"
+            app:measureTextSize1="10sp"
+            app:radius1="110dp"
+            app:realTimeValue1="325"
+            app:startAngle1="210"
+            app:stripeWidth1="30dp"
+            app:sweepAngle1="120"/>
+
+        <com.example.myapplication.View.kedupan.DashboardView
+            android:id="@+id/dashboard_view_33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bigSliceCount1="12"
+            app:headerRadius1="50dp"
+            app:headerTitle1="km/h"
+            app:maxValue1="240"
+            app:measureTextSize1="10sp"
+            app:radius1="110dp"
+            app:sliceCountInOneBigSlice1="2"
+            app:realTimeValue1="80"
+            app:startAngle1="170"
+            app:stripeMode1="inner1"
+            app:stripeWidth1="40dp"
+            app:sweepAngle1="200"/>
+
+        <com.example.myapplication.View.kedupan.DashboardView
+            android:id="@+id/dashboard_view_44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_equipments_05" />
+
+        <com.example.myapplication.View.kedupan.DegreeView
+            android:id="@+id/dash_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="changeValue"
+            android:layout_alignParentBottom="true"
+            android:background="#ed0f0f"
+            android:textColor="#fbfcfc"
+            android:text="随机刻度值" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

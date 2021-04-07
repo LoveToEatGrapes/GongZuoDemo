@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icon_70"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/icon70" />
+
+        <ImageView
+            android:id="@+id/icon_60"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/icon80" />
+
+        <ImageView
+            android:id="@+id/icon_80"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/icon80" />
+
+
+        <TextView
+            android:id="@+id/收"
+            android:text="收"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/icon_80"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <com.example.myapplication.View.SpreadView
+        android:id="@+id/spreadView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:spread_center_color="@color/colorAccent"
+        app:spread_delay_milliseconds="35"
+        app:spread_distance="5"
+        app:spread_max_radius="90"
+        android:layout_marginTop="200dp"
+        app:spread_radius="100"
+        app:spread_spread_color="@color/colorAccent" />
+
+</RelativeLayout>

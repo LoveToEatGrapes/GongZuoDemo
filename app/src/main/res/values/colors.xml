@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_F0F0F0">#F0F0F0</color>
+    <color name="color_14b7cc">#14B7CC</color>
+    <color name="color_999999">#999999</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="camera_progress_three">#24ff00</color>
+    <color name="color_4e3d31">#4e3d31</color>
+    <color name="grey8">#888888</color>
+    <color name="transparent_black_85">#DA000000</color>
+
+    <color name="white_translucent">#AAFFFFFF</color>
+    <color name="black_translucent">#B0000000</color>
+
+    <color name="border">@color/white_translucent</color>
+    <color name="guideline">@color/white_translucent</color>
+    <color name="corner">@android:color/white</color>
+    <color name="surrounding_area">@color/black_translucent</color>
+
+
+    <color name="red_value">#c72424</color>
+    <color name="orange_value">#d38324</color>
+    <color name="yellow_value">#ddd843</color>
+    <color name="green_value">#58ce41</color>
+
+
+<!--    <color name="colorPrimary">#00b4aa</color>-->
+<!--    <color name="colorPrimaryDark">#00978f</color>-->
+<!--    <color name="colorAccent">#FF6A6E</color>-->
+    <color name="color_red">#FF5722</color>
+    <color name="color_orange">#FF9800</color>
+    <color name="color_yellow">#FFC107</color>
+    <color name="color_green">#3FB830</color>
+    <color name="color_blue">#00BAED</color>
+    <color name="color_dark">#263238</color>
+    <color name="color_dark_light">#455A64</color>
+    <color name="color_light">#ECEFF1</color>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 自定义相机开始 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" /> <!-- //存储权限也需要 -->
+    <uses-permission android:name="android.permission.WEITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.activity_test.CActivity"></activity>
+        <activity android:name=".activity.activity_test.BActivity" />
+        <activity android:name=".activity.activity_test.AActivity" />
+        <activity android:name=".activity.ImageViewButtonActivity" />
+        <activity android:name=".activity.KeDuPanActivity" />
+        <activity android:name=".activity.RandomTextLayoutActivity" />
+        <activity android:name=".activity.AonTouchActivity" />
+        <activity android:name=".activity.AnimationActivity" />
+        <activity android:name=".activity.CamareMainActivity" />
+        <activity android:name=".activity.BesselWaveActivity" />
+        <activity android:name=".activity.BesselTwoActivity" />
+        <activity android:name=".activity.BesselActivity" />
+        <activity android:name=".activity.EmailActivity" />
+        <activity android:name=".activity.ZoomPicturesActivity" />
+        <activity android:name=".activity.CropTwoActivity" />
+        <activity android:name=".activity.CropActivity" />
+        <activity android:name=".activity.FragmentHVActivity" />
+        <activity android:name=".activity.ImageComPressActivity" />
+        <activity android:name=".activity.EHorizontalSelectActivity" />
+        <activity android:name=".tag_viewpage.TabViewPageActivity" />
+        <activity android:name=".xiangji.OpenCameraActivity" />
+        <activity android:name=".xiangji.XiangJiActivity" />
+        <activity android:name=".video.VideoActivity" />
+        <activity android:name=".WLM.WlmqActivity" />
+        <activity android:name=".activity.PopWindowActivity" />
+        <activity android:name=".uiView.Video_3_2Activity" />
+        <activity android:name=".uiView.Button_shuibowen_Activity" />
+        <activity android:name=".activity.RandomTextLayoutTwoActivity" android:screenOrientation="landscape"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mabeijianxi.smallvideorecord2.MediaRecorderActivity" />
+        <activity android:name=".uiView.SendSmallVideoActivity" />
+        <activity android:name=".uiView.VideoPlayerActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/kedupan"
+            android:text="刻度盘"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/bt_kedu_two"
+            android:text="刻度盘2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/shui_bo_wen"
+            android:text="水波纹"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/video_compress"
+            android:text="视频压缩"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/popwin"
+            android:text="PopWin弹窗"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+
+        <Button
+            android:id="@+id/shipin"
+            android:text="打包apk后播放视频"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/xiangji"
+            android:text="自定义相机"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/tabviewpage"
+            android:text="tablayout与viewpage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_huadong"
+            android:text="类似于tablayout的滑动"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_img_com"
+            android:text="图片压缩"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_fragment"
+            android:text="fragment 横竖屏切换"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_crop"
+            android:text="图片剪裁"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_zoom"
+            android:text="缩放图片"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_email"
+            android:text="邮箱校验"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_beisaner"
+            android:text="贝塞尔曲线"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_beisaner_two"
+            android:text="贝塞尔曲线 签名"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_beisaner_three"
+            android:text="贝塞尔曲线 波浪"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_camare"
+            android:text="自定义相机"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_animation"
+            android:text="加载动画"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/bt_onthounc"
+            android:text="activity点击事件"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_散乱文字"
+            android:text="词云"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/词云2"
+            android:text="词云2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_点击图片报点"
+            android:text="点击图片报点"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/bt_测试Activity"
+            android:text="测试Activity"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

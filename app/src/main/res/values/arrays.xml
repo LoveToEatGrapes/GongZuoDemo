@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 男人头部 -->
+    <string-array name="man_head">
+        <item>man_hair</item>
+        <item>man_eye</item>
+        <item>man_mouth</item>
+        <item>man_throat</item>
+        <item>man_mind</item>
+        <item>man_ear</item>
+        <item>man_nose</item>
+    </string-array>
+
+    <string-array name="man_hair_code">
+        <item>hair</item>
+        <item>头发</item>
+    </string-array>
+
+    <string-array name="man_eye_code">
+        <item>eye</item>
+        <item>眼</item>
+    </string-array>
+    <string-array name="man_mouth_code">
+        <item>mouth</item>
+        <item>口腔</item>
+    </string-array>
+    <string-array name="man_throat_code">
+        <item>throat</item>
+        <item>咽喉</item>
+    </string-array>
+    <string-array name="man_mind_code">
+        <item>mind</item>
+        <item>头/脑</item>
+    </string-array>
+    <string-array name="man_ear_code">
+        <item>ear</item>
+        <item>耳朵</item>
+    </string-array>
+    <string-array name="man_nose_code">
+        <item>nose</item>
+        <item>鼻</item>
+    </string-array>
+
+    <integer-array name="man_hair">
+        <item>30</item>
+        <item>46</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="man_eye">
+        <item>30</item>
+        <item>103</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="man_mouth">
+        <item>30</item>
+        <item>160</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="man_throat">
+        <item>30</item>
+        <item>220</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="man_mind">
+        <item>289</item>
+        <item>44</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="man_ear">
+        <item>289</item>
+        <item>105</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="man_nose">
+        <item>289</item>
+        <item>162</item>
+        <item>20</item>
+    </integer-array>
+</resources>
